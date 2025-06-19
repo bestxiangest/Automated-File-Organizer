@@ -1,0 +1,30 @@
+# 文件监控
+watchdog>=3.0.0
+
+# GUI界面
+tkinter  # 通常随Python安装，但在某些Linux发行版中需要单独安装
+
+# 系统相关
+psutil>=5.9.0  # 系统信息和进程管理
+pystray>=0.19.0  # 系统托盘功能
+Pillow>=9.0.0  # 图像处理，用于托盘图标
+pywin32>=306  # Windows API支持
+six>=1.16.0  # Python 2/3 兼容性库，pystray依赖
+
+# 文件处理
+send2trash>=1.8.0  # 安全删除文件到回收站
+
+# 配置和数据处理
+PyYAML>=6.0  # YAML配置文件支持（可选）
+
+# 打包相关（开发时使用）
+pyinstaller>=5.0  # 打包成可执行文件
+auto-py-to-exe>=2.20.0  # GUI打包工具
+
+# 测试相关（开发时使用）
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# 代码质量（开发时使用）
+flake8>=5.0.0
+black>=22.0.0
