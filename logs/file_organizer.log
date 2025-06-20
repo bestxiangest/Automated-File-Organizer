@@ -16,3 +16,446 @@
 2025-06-19 22:12:14 - FileOrganizer - INFO - 跳过目录: 表格
 2025-06-19 22:12:14 - FileOrganizer - INFO - 文件已整理: 计算机组成原理课程设计报告.md -> 其他文件\计算机组成原理课程设计报告.md
 2025-06-19 22:12:14 - FileOrganizer - INFO - 文件已整理: 迅雷游戏.lnk -> 其他文件\迅雷游戏.lnk
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 123数字开头.zip -> 压缩包\123数字开头.zip
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: file-with-dashes.pdf -> 文档\file-with-dashes.pdf
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: file_with_underscores.jpg -> 图片\file_with_underscores.jpg
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: mixed.Case.File.png -> 图片\mixed.Case.File.png
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: UPPERCASE_FILE.MP3 -> 音频\UPPERCASE_FILE.MP3
+2025-06-20 01:12:42 - FileOrganizer - INFO - 跳过目录: 个人资料
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 中文文件名测试.docx -> 文档\中文文件名测试.docx
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 临时文件_1.xz -> 压缩包\临时文件_1.xz
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 临时文件_3.jpg -> 图片\临时文件_3.jpg
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 临时文件_3.xls -> 表格\临时文件_3.xls
+2025-06-20 01:12:42 - FileOrganizer - INFO - 跳过目录: 分类文件
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 参考文件_1.doc -> 文档\参考文件_1.doc
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 参考文件_2.bmp -> 图片\参考文件_2.bmp
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 参考文件_3.rs -> 代码\参考文件_3.rs
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 参考文件_3.tar -> 压缩包\参考文件_3.tar
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 备份文件_1.go -> 代码\备份文件_1.go
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 备份文件_2.wmv -> 视频\备份文件_2.wmv
+2025-06-20 01:12:42 - FileOrganizer - INFO - 跳过目录: 备份文件夹
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 学习材料_3.avi -> 视频\学习材料_3.avi
+2025-06-20 01:12:42 - FileOrganizer - INFO - 跳过目录: 工作文档
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 工作文档_1.wma -> 音频\工作文档_1.wma
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 工作文档_2.flac -> 音频\工作文档_2.flac
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 工作文档_4.java -> 代码\工作文档_4.java
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 带空格的 文件名.txt -> 文档\带空格的 文件名.txt
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 样本数据_2.exe -> 程序\样本数据_2.exe
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 样本数据_4.flac -> 音频\样本数据_4.flac
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 样本数据_4.rtf -> 文档\样本数据_4.rtf
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 测试文件_1.webm -> 视频\测试文件_1.webm
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 测试文件_4.gif -> 图片\测试文件_4.gif
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 测试文件_4.rpm -> 程序\测试文件_4.rpm
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 测试文件_5.wav -> 音频\测试文件_5.wav
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 特殊字符@#$.txt -> 文档\特殊字符@#$.txt
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 示例文档_1.exe -> 程序\示例文档_1.exe
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 示例文档_2.ppt -> 演示文稿\示例文档_2.ppt
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 示例文档_3.rpm -> 程序\示例文档_3.rpm
+2025-06-20 01:12:42 - FileOrganizer - INFO - 跳过目录: 软件安装包
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 重要资料_1.gif -> 图片\重要资料_1.gif
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 重要资料_3.mp3 -> 音频\重要资料_3.mp3
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 重要资料_5.xz -> 压缩包\重要资料_5.xz
+2025-06-20 01:12:42 - FileOrganizer - INFO - 跳过目录: 重要项目文件夹
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 项目文件_2.py -> 代码\项目文件_2.py
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 项目文件_2.rar -> 压缩包\项目文件_2.rar
+2025-06-20 01:12:42 - FileOrganizer - INFO - 文件已整理: 项目文件_4.7z -> 压缩包\项目文件_4.7z
+2025-06-20 01:12:48 - FileOrganizer - INFO - 成功创建托盘图标
+2025-06-20 01:12:54 - FileOrganizer - INFO - 已显示通知对话框: 桌面统计 - 桌面统计:
+
+文件: 0 个
+文件夹: 7 个
+总大小: 0.0 MB
+
+主要类型: 
+2025-06-20 01:13:07 - FileOrganizer - INFO - 已显示通知对话框: 下载文件夹统计 - 下载文件夹统计:
+
+文件: 353 个
+文件夹: 10 个
+总大小: 12703.9 MB
+
+主要类型: .docx(60), .pdf(41), .png(27)
+2025-06-20 01:13:15 - FileOrganizer - INFO - 已显示通知对话框: 错误 - 需要安装winshell模块 (pip install winshell)
+2025-06-20 01:13:22 - FileOrganizer - INFO - 已显示通知对话框: 临时文件清理 - 清理完成
+
+删除文件: 186 个
+释放空间: 120.5 MB
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: Automated File Organizer
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: 交互式网页设计
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: 分类文件
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: 压缩包
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: 文档
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: 演示文稿
+2025-06-20 01:14:32 - FileOrganizer - INFO - 跳过目录: 表格
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: Automated File Organizer
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: 交互式网页设计
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: 分类文件
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: 压缩包
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: 文档
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: 演示文稿
+2025-06-20 01:14:35 - FileOrganizer - INFO - 跳过目录: 表格
+2025-06-20 11:34:50 - FileOrganizer - INFO - 成功创建托盘图标
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: (Audio) 实验四-实验原理部分.m4a -> 音频\(Audio) 实验四-实验原理部分.m4a
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: (Audio) 实验四——总结.m4a -> 音频\(Audio) 实验四——总结.m4a
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 01.pdf -> 文档\01.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 037c6db5-23a3-4693-86f5-01f58f91946d-1.json -> 其他文件\037c6db5-23a3-4693-86f5-01f58f91946d-1.json
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 05022150点滴卫士HNX(1).docx -> 文档\05022150点滴卫士HNX(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 05022150点滴卫士HNX.docx -> 文档\05022150点滴卫士HNX.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 1(1) (1).mp3 -> 音频\1(1) (1).mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 1(1).mp3 -> 音频\1(1).mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 12.1接收为预备党员党内外意见座谈会记录（填写打印）.doc -> 文档\12.1接收为预备党员党内外意见座谈会记录（填写打印）.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 129-鲁雨欣-运算器实验报告.docx -> 文档\129-鲁雨欣-运算器实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 14.1中国共产党入党志愿书（发放手写，支部章+党委章）.doc -> 文档\14.1中国共产党入党志愿书（发放手写，支部章+党委章）.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 1745739665383.jpg -> 图片\1745739665383.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 1_比赛报名平台使用说明-参赛选手(1).pdf -> 文档\1_比赛报名平台使用说明-参赛选手(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2(2).mp3 -> 音频\2(2).mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2.团支部推优大会的会议记录.docx -> 文档\2.团支部推优大会的会议记录.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025-3-4实验室面试第一天.xlsx -> 表格\2025-3-4实验室面试第一天.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 202505党员发展各阶段材料时间查询表 (1).xlsx -> 表格\202505党员发展各阶段材料时间查询表 (1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 20250611创新创业学生党支部支部大会安排.pdf -> 文档\20250611创新创业学生党支部支部大会安排.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 20250612-0439-38.3808416.mp4 -> 视频\20250612-0439-38.3808416.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025069664-参赛总文件夹.zip -> 压缩包\2025069664-参赛总文件夹.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1038118.pdf -> 文档\2025R11L1038118.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1039250.pdf -> 文档\2025R11L1039250.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1039868.pdf -> 文档\2025R11L1039868.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1039975.pdf -> 文档\2025R11L1039975.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1081457(1).pdf -> 文档\2025R11L1081457(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1081596(1).pdf -> 文档\2025R11L1081596(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1082715(1).pdf -> 文档\2025R11L1082715(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025R11L1082795(1).pdf -> 文档\2025R11L1082795(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025作品信息审核流程(仅供参考)(2).pptx -> 演示文稿\2025作品信息审核流程(仅供参考)(2).pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025实验室管理及规划.emmx -> 其他文件\2025实验室管理及规划.emmx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025实验室管理及规划.pdf -> 文档\2025实验室管理及规划.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025年上半年发展党员入党志愿书领取.xlsx -> 表格\2025年上半年发展党员入党志愿书领取.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025年值得关注的赛事.docx -> 文档\2025年值得关注的赛事.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025年全国大学生创新创业大赛报名指南(1).docx -> 文档\2025年全国大学生创新创业大赛报名指南(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025最新版人工智能CV+NLP学习路线图 (1).png -> 图片\2025最新版人工智能CV+NLP学习路线图 (1).png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025最新版人工智能CV+NLP学习路线图.png -> 图片\2025最新版人工智能CV+NLP学习路线图.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2025计算机组成原理复习要点清单（4.23更新）-.doc -> 文档\2025计算机组成原理复习要点清单（4.23更新）-.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 21 (1).txt -> 文档\21 (1).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 21 (2).txt -> 文档\21 (2).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 21 (3).txt -> 文档\21 (3).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 21 (4).txt -> 文档\21 (4).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 21.txt -> 文档\21.txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网《数据库原理及应用》课程设计报告封面及任务书模板.doc -> 文档\23物联网《数据库原理及应用》课程设计报告封面及任务书模板.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网《数据库原理及应用课程设计》.docx -> 文档\23物联网《数据库原理及应用课程设计》.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网第6组数据库实验1实验报告 (1).docx -> 文档\23物联网第6组数据库实验1实验报告 (1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网第6组数据库实验1实验报告.docx -> 文档\23物联网第6组数据库实验1实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网第6组数据库实验4实验报告.docx -> 文档\23物联网第6组数据库实验4实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网第6组数据库实验六实验报告.docx -> 文档\23物联网第6组数据库实验六实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 23物联网第六组数据库实验5实验报告.docx -> 文档\23物联网第六组数据库实验5实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2584b1381c8de6820c2d32f67f6c0f63.jpg -> 图片\2584b1381c8de6820c2d32f67f6c0f63.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 25物联网工程第1组第1次Python实验报告.docx -> 文档\25物联网工程第1组第1次Python实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 25物联网工程第1组第3次Python实验报告.docx -> 文档\25物联网工程第1组第3次Python实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 25物联网工程第1组第4次Python实验报告.docx -> 文档\25物联网工程第1组第4次Python实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 25物联网工程第1组第5次Python实验报告.docx -> 文档\25物联网工程第1组第5次Python实验报告.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2_2024年度信息与软件工程学院“两红两优”申报名单汇总表 (1).xlsx -> 表格\2_2024年度信息与软件工程学院“两红两优”申报名单汇总表 (1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2_2024年度信息与软件工程学院“两红两优”申报名单汇总表(1).xlsx -> 表格\2_2024年度信息与软件工程学院“两红两优”申报名单汇总表(1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2_2024年度信息与软件工程学院“两红两优”申报名单汇总表.xlsx -> 表格\2_2024年度信息与软件工程学院“两红两优”申报名单汇总表.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 2_专利报销流程(1).pdf -> 文档\2_专利报销流程(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 3(2).mp3 -> 音频\3(2).mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 3.团支部考察书面材料.docx -> 文档\3.团支部考察书面材料.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 31327cf85ccf9f4621a492ab669b444b.jpg -> 图片\31327cf85ccf9f4621a492ab669b444b.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 379b0bf72ee82ba7dd4229e54d792fc0.jpg -> 图片\379b0bf72ee82ba7dd4229e54d792fc0.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 3_附件(1).docx -> 文档\3_附件(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 4(2).mp3 -> 音频\4(2).mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: 4.5艾溪湖
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 4.5艾溪湖.zip -> 压缩包\4.5艾溪湖.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 4_信工学院25年上半年推优准备材料(1).zip -> 压缩包\4_信工学院25年上半年推优准备材料(1).zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 5(1).mp3 -> 音频\5(1).mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 5.1XX培养联系人资格审查表（填写打印，支部章，支部书记签字）.doc -> 文档\5.1XX培养联系人资格审查表（填写打印，支部章，支部书记签字）.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 59d7986bdc9bcd12b7e4057f6c41c355.temp -> 其他文件\59d7986bdc9bcd12b7e4057f6c41c355.temp
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 6.1入党积极分子考察登记表（发放手写，支部章+党委章，支部书记签字）.docx -> 文档\6.1入党积极分子考察登记表（发放手写，支部章+党委章，支部书记签字）.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 6347211745848652vLRMgVwbAaIdiPFhPU15cRQ9CrHB2X (1).jpg -> 图片\6347211745848652vLRMgVwbAaIdiPFhPU15cRQ9CrHB2X (1).jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 6347211745848652vLRMgVwbAaIdiPFhPU15cRQ9CrHB2X.jpg -> 图片\6347211745848652vLRMgVwbAaIdiPFhPU15cRQ9CrHB2X.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 6347211745848669NOWTA1RDfSsKj9Du8Y5z-lZ5OK8S9I.jpg -> 图片\6347211745848669NOWTA1RDfSsKj9Du8Y5z-lZ5OK8S9I.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 6_信息与软件工程学院2025年第一批党支部推荐拟发展对象参与政治理论考试通过情况(1).xlsx -> 表格\6_信息与软件工程学院2025年第一批党支部推荐拟发展对象参与政治理论考试通过情况(1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 7.2列为发展对象党内外意见座谈会记录（填写打印）.doc -> 文档\7.2列为发展对象党内外意见座谈会记录（填写打印）.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 7z2409-x64.exe -> 程序\7z2409-x64.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAAIckQTA_i4Tw-PnfYvDGqDjGPuptpwmREb849FJd0R6h0fg.png -> 图片\AAAAAAAAAAAAAAAAAAAAAIckQTA_i4Tw-PnfYvDGqDjGPuptpwmREb849FJd0R6h0fg.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fg.png -> 图片\AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fg.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fk.png -> 图片\AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fk.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fo.png -> 图片\AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fo.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fs.png -> 图片\AAAAAAAAAAAAAAAAAAAAAIYgEDo9itX2r63eYPDBqG6dbLQ6-gWSF7szoAUP0UKs0fs.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fg.png -> 图片\AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fg.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fk.png -> 图片\AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fk.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fo.png -> 图片\AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fo.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fs.png -> 图片\AAAAAAAAAAAAAAAAAAAAANIkFzlqjoamrPmJMPCQ-zyeP-U6rwnEQ-pi8wNT1xKp0fs.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fg.png -> 图片\AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fg.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fk.png -> 图片\AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fk.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fo.png -> 图片\AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fo.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fs.png -> 图片\AAAAAAAAAAAAAAAAAAAAANNzETpv39b3qqrQZfDD-GvGbLNppwXFF-M0oFdYhxP60fs.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AccessKey.csv -> 表格\AccessKey.csv
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: aedde7ed-605a-4407-bb95-02123e065dab-1.json -> 其他文件\aedde7ed-605a-4407-bb95-02123e065dab-1.json
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AI语音教学系统 (1).md -> 其他文件\AI语音教学系统 (1).md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: AI语音教学系统.md -> 其他文件\AI语音教学系统.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: audio (1).wav -> 音频\audio (1).wav
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: audio (2).wav -> 音频\audio (2).wav
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: audio (3).wav -> 音频\audio (3).wav
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: audio (4).wav -> 音频\audio (4).wav
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: audio (5).wav -> 音频\audio (5).wav
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: audio.wav -> 音频\audio.wav
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: BaiduNetdisk_7.51.0.133.exe -> 程序\BaiduNetdisk_7.51.0.133.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: cam__py__wx.zip -> 压缩包\cam__py__wx.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: CC++程序设计竞赛真题实战特训教程（图解版）.pdf -> 文档\CC++程序设计竞赛真题实战特训教程（图解版）.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: ChatRoomDownloads
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: ChromeSetup.exe -> 程序\ChromeSetup.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: circuit11.txt -> 文档\circuit11.txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: circuit4(1) (1).txt -> 文档\circuit4(1) (1).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: circuit4(1).txt -> 文档\circuit4(1).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: CL.keil-assistant-1.7.0.vsix -> 其他文件\CL.keil-assistant-1.7.0.vsix
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: Compressed
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: config.h -> 其他文件\config.h
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: cosyvoice_websocket_api.md -> 其他文件\cosyvoice_websocket_api.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: desktop.ini -> 其他文件\desktop.ini
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: Documents
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: dog_and_girl.jpeg -> 图片\dog_and_girl.jpeg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: esp32-frp.zip -> 压缩包\esp32-frp.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: esp_no.zip -> 压缩包\esp_no.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: FileZilla_3.67.0_win64-setup.exe -> 程序\FileZilla_3.67.0_win64-setup.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: fu.png -> 图片\fu.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: gps.h -> 其他文件\gps.h
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: HelloChatRoom.7z -> 压缩包\HelloChatRoom.7z
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: HEU_KMS_Activator_v42.3.2.rar -> 压缩包\HEU_KMS_Activator_v42.3.2.rar
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: huaniao.png -> 图片\huaniao.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Image_514837604644227.jpg -> 图片\Image_514837604644227.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: IMG_20231213_170452(1).jpg -> 图片\IMG_20231213_170452(1).jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: IMG_20250406_011829(1).jpg -> 图片\IMG_20250406_011829(1).jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: IMG_20250418_152556.jpg -> 图片\IMG_20250418_152556.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: IMG_20250418_161710.jpg -> 图片\IMG_20250418_161710.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: intellsmi.comment-translate-3.0.0.vsix -> 其他文件\intellsmi.comment-translate-3.0.0.vsix
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: Internet Download Manager
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: inzoi-early-access 0.1.2.torrent -> 其他文件\inzoi-early-access 0.1.2.torrent
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: kaoshibao考试宝word模板.docx -> 文档\kaoshibao考试宝word模板.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: longfengchengxiang.png -> 图片\longfengchengxiang.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: main.c -> 代码\main.c
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: main.cpp -> 代码\main.cpp
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: mmexport1747284097803.jpg -> 图片\mmexport1747284097803.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: Music
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: node-v23.6.0-x64.msi -> 程序\node-v23.6.0-x64.msi
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: NVIDIA_app_v11.0.1.189.exe -> 程序\NVIDIA_app_v11.0.1.189.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: oauth2.0token.py -> 代码\oauth2.0token.py
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: P1219_2.in -> 其他文件\P1219_2.in
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: papercut_design.png -> 图片\papercut_design.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: particlesjs-config (1).json -> 其他文件\particlesjs-config (1).json
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: particlesjs-config.json -> 其他文件\particlesjs-config.json
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: ping.cpp -> 代码\ping.cpp
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: ping.exe -> 程序\ping.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: platformio.platformio-ide-3.3.4@alpine-arm64.vsix -> 其他文件\platformio.platformio-ide-3.3.4@alpine-arm64.vsix
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: PPT-黄南星1102-1307.pptx -> 演示文稿\PPT-黄南星1102-1307.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: Programs
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Project.uvprojx -> 其他文件\Project.uvprojx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: ProPrj_导盲杖_2025-05-05.zip -> 压缩包\ProPrj_导盲杖_2025-05-05.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: python-3.13.1-amd64.exe -> 程序\python-3.13.1-amd64.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Quicker.x64.1.44.10.0.msi -> 程序\Quicker.x64.1.44.10.0.msi
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Quicker_20250129_201825.png -> 图片\Quicker_20250129_201825.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Radmin_LAN_1.4.4642.1 (1).exe -> 程序\Radmin_LAN_1.4.4642.1 (1).exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Radmin_LAN_1.4.4642.1.exe -> 程序\Radmin_LAN_1.4.4642.1.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: README.md -> 其他文件\README.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: recovery_codes.txt -> 文档\recovery_codes.txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Screenshot_20250317_172641.jpg -> 图片\Screenshot_20250317_172641.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Star guide.7z -> 压缩包\Star guide.7z
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: Star guide.zip -> 压缩包\Star guide.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: SteamSetup.exe -> 程序\SteamSetup.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: TencentMeeting_0300000000_3.30.20.451_x86_64.publish.officialwebsite.exe -> 程序\TencentMeeting_0300000000_3.30.20.451_x86_64.publish.officialwebsite.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: TencentMeeting_0300000000_3.30.30.420_x86_64.publish.officialwebsite.exe -> 程序\TencentMeeting_0300000000_3.30.30.420_x86_64.publish.officialwebsite.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: ubuntu-24.04.1-desktop-amd64.iso -> 其他文件\ubuntu-24.04.1-desktop-amd64.iso
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: uiso9_cn.exe -> 程序\uiso9_cn.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: VC_redist.x86.exe -> 程序\VC_redist.x86.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: Video
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: video_20250504_225907.mp4 -> 视频\video_20250504_225907.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: VisualStudioSetup.exe -> 程序\VisualStudioSetup.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: VLAN间路由实验（xiexin）.pptx -> 演示文稿\VLAN间路由实验（xiexin）.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: VLAN间通信.pkt -> 其他文件\VLAN间通信.pkt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: VSCodeUserSetup-x64-1.96.4.exe -> 程序\VSCodeUserSetup-x64-1.96.4.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: WeChatSetup.exe -> 程序\WeChatSetup.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: WeGameMiniLoader.std.6.11.22.1045.exe -> 程序\WeGameMiniLoader.std.6.11.22.1045.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: WindowsAppSDK
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: WOMicClientSetup5_2.exe -> 程序\WOMicClientSetup5_2.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: WPS_Setup_19770.exe -> 程序\WPS_Setup_19770.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: WutheringWaves_official_setup_1.7.1.0.exe -> 程序\WutheringWaves_official_setup_1.7.1.0.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: XunLeiWebSetup_pan.exe -> 程序\XunLeiWebSetup_pan.exe
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: yltx.vscode-luogu-4.11.6.vsix -> 其他文件\yltx.vscode-luogu-4.11.6.vsix
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: “国家安全 青春挺膺”主题团日活动周未录入团支部名单(1).xlsx -> 表格\“国家安全 青春挺膺”主题团日活动周未录入团支部名单(1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 《计算机组成原理》报告—封面&任务书(1).doc -> 文档\《计算机组成原理》报告—封面&任务书(1).doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 《计算机组成原理》报告—封面&任务书.doc -> 文档\《计算机组成原理》报告—封面&任务书.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 【2025年新修订】信工学院党员发展材料模板.zip -> 压缩包\【2025年新修订】信工学院党员发展材料模板.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 【党教中心2025年制】党员档案材料审查工作规范.pdf -> 文档\【党教中心2025年制】党员档案材料审查工作规范.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 【样表】辅导员推荐优秀团员作为党的发展对象推荐表 (1).docx -> 文档\【样表】辅导员推荐优秀团员作为党的发展对象推荐表 (1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 【样表】辅导员推荐优秀团员作为党的发展对象推荐表 (2).docx -> 文档\【样表】辅导员推荐优秀团员作为党的发展对象推荐表 (2).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 【样表】辅导员推荐优秀团员作为党的发展对象推荐表.docx -> 文档\【样表】辅导员推荐优秀团员作为党的发展对象推荐表.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 万诗怡.docx -> 文档\万诗怡.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 三感活动(1).docx -> 文档\三感活动(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 三感活动.docx -> 文档\三感活动.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 三感活动类型1 李凤凤(1).docx -> 文档\三感活动类型1 李凤凤(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 中国大学生计算机设计大赛作品信息摘要.pdf -> 文档\中国大学生计算机设计大赛作品信息摘要.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 乌托邦3.2fix模组服务端.rar -> 压缩包\乌托邦3.2fix模组服务端.rar
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 习题1辅导1.pdf -> 文档\习题1辅导1.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 五四朗诵展演表彰大会加分证明(1).pdf -> 文档\五四朗诵展演表彰大会加分证明(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 作品演示视频.mp4 -> 视频\作品演示视频.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 使用Winsock设计一个Ping程序.7z -> 压缩包\使用Winsock设计一个Ping程序.7z
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信工学院2025年上半年发展对象信息汇总表 (1).xlsx -> 表格\信工学院2025年上半年发展对象信息汇总表 (1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信工学院2025年上半年发展对象信息汇总表 (2).xlsx -> 表格\信工学院2025年上半年发展对象信息汇总表 (2).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信工学院2025年上半年发展对象信息汇总表.xlsx -> 表格\信工学院2025年上半年发展对象信息汇总表.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信工学院入团积极分子考察记录表(1).docx -> 文档\信工学院入团积极分子考察记录表(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信息与软件工程学院入团积极分子发展团员意向表 (1).xlsx -> 表格\信息与软件工程学院入团积极分子发展团员意向表 (1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信息与软件工程学院入团积极分子发展团员意向表 (2).xlsx -> 表格\信息与软件工程学院入团积极分子发展团员意向表 (2).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信息与软件工程学院入团积极分子发展团员意向表 (3).xlsx -> 表格\信息与软件工程学院入团积极分子发展团员意向表 (3).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信息与软件工程学院入团积极分子发展团员意向表(空白汇总).xlsx -> 表格\信息与软件工程学院入团积极分子发展团员意向表(空白汇总).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信息与软件工程学院入团积极分子发展团员意向表.xlsx -> 表格\信息与软件工程学院入团积极分子发展团员意向表.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 信息工程学院2025年启音3.29活动工作人员志愿时长证明.pdf -> 文档\信息工程学院2025年启音3.29活动工作人员志愿时长证明.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 党课培训班课程安排.pdf -> 文档\党课培训班课程安排.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 党课第一讲(1).pdf -> 文档\党课第一讲(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 党课第二讲(1).pdf -> 文档\党课第二讲(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 关于举办华东交通大学信息与软件工程学院海峡两岸暨港澳地区大学生计算机创新作品赛报名表.xlsx -> 表格\关于举办华东交通大学信息与软件工程学院海峡两岸暨港澳地区大学生计算机创新作品赛报名表.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 关于开展2024年度“泰豪之星·十佳大学生”评选工作的通知.docx -> 文档\关于开展2024年度“泰豪之星·十佳大学生”评选工作的通知.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 关于开展信息与软件工程学院“青春活力团支部、优秀共青团员、优秀共青团干部评选的通知(1).pdf -> 文档\关于开展信息与软件工程学院“青春活力团支部、优秀共青团员、优秀共青团干部评选的通知(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 关于开展信息与软件工程学院五四主题团日活动暨“三感”活动的通知(1).docx -> 文档\关于开展信息与软件工程学院五四主题团日活动暨“三感”活动的通知(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 函调信息收集.xlsx -> 表格\函调信息收集.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: 分类文件
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 创新基地学生党支部-积极分子-张祖宁.docx -> 文档\创新基地学生党支部-积极分子-张祖宁.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 初稿.pptx -> 演示文稿\初稿.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 剪纸作品_1750304776195.png -> 图片\剪纸作品_1750304776195.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通-不加急6件-合作协议(1).rar -> 压缩包\华东交通-不加急6件-合作协议(1).rar
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通4件(1).rar -> 压缩包\华东交通4件(1).rar
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学-电子发票-720(1) (1).pdf -> 文档\华东交通大学-电子发票-720(1) (1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学-电子发票-720(1).pdf -> 文档\华东交通大学-电子发票-720(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学_27.jpg -> 图片\华东交通大学_27.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学大学推荐优秀团员作为党的发展对象汇总表 (1).doc -> 文档\华东交通大学大学推荐优秀团员作为党的发展对象汇总表 (1).doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学大学推荐优秀团员作为党的发展对象汇总表 (2).doc -> 文档\华东交通大学大学推荐优秀团员作为党的发展对象汇总表 (2).doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学大学推荐优秀团员作为党的发展对象汇总表.doc -> 文档\华东交通大学大学推荐优秀团员作为党的发展对象汇总表.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学大学推荐优秀团员作为入党积极分子汇总表.doc -> 文档\华东交通大学大学推荐优秀团员作为入党积极分子汇总表.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 华东交通大学推荐优秀团员作为党的发展对象登记表 .docx -> 文档\华东交通大学推荐优秀团员作为党的发展对象登记表 .docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 历任培养联系人(1) (2).xlsx -> 表格\历任培养联系人(1) (2).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 发展对象登记表(模板)(1).docx -> 文档\发展对象登记表(模板)(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 名称：华东交通大学-电子发票-1900(1).pdf -> 文档\名称：华东交通大学-电子发票-1900(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 后端学习分享-胡佳慧(1).pptx -> 演示文稿\后端学习分享-胡佳慧(1).pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 后端学习分享.pptx -> 演示文稿\后端学习分享.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 团支部组织生活会录入模板.docx -> 文档\团支部组织生活会录入模板.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 基于Tacotron2的方言语音合成系统开发及应用_吴洁.pdf -> 文档\基于Tacotron2的方言语音合成系统开发及应用_吴洁.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 基于智能语音交互的智慧教学学情识别方法_叶韵.pdf -> 文档\基于智能语音交互的智慧教学学情识别方法_叶韵.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 基于跨模态交互Transf...er的多模态方面级情感分析_甘卓浩.pdf -> 文档\基于跨模态交互Transf...er的多模态方面级情感分析_甘卓浩.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 多思虚拟仿真电路.rar -> 压缩包\多思虚拟仿真电路.rar
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验一.zip -> 压缩包\实验一.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验三  存储器读写实验.doc -> 文档\实验三  存储器读写实验.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验三  存储器读写实验_01(1).png -> 图片\实验三  存储器读写实验_01(1).png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验三  存储器读写实验_01.png -> 图片\实验三  存储器读写实验_01.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验三  存储器读写实验_02.png -> 图片\实验三  存储器读写实验_02.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验三  存储器读写实验_03.png -> 图片\实验三  存储器读写实验_03.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验三.zip -> 压缩包\实验三.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验二  移位运算实验.doc -> 文档\实验二  移位运算实验.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验八及实验九 微程序控制器内容更正.pdf -> 文档\实验八及实验九 微程序控制器内容更正.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验四——使用Clipchamp制作.mp4 -> 视频\实验四——使用Clipchamp制作.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验四——实验原理部分.mp4 -> 视频\实验四——实验原理部分.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验四：微程序控制器实验 ——张祖宁、陈泽宇、戚浩、曾令雄.pptx -> 演示文稿\实验四：微程序控制器实验 ——张祖宁、陈泽宇、戚浩、曾令雄.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验室管理-陈都.jpg -> 图片\实验室管理-陈都.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验室管理.xmind -> 其他文件\实验室管理.xmind
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验报告册模板20210311.docx -> 文档\实验报告册模板20210311.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 实验过程与步骤.mp4 -> 视频\实验过程与步骤.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 导盲杖微信小程序端.docx -> 文档\导盲杖微信小程序端.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 已实现API.md -> 其他文件\已实现API.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 座位表 (1).xlsx -> 表格\座位表 (1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 张祖宁(1).pdf -> 文档\张祖宁(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 张祖宁的快速会议-739851503-fea8dfb18b6b.xlsx -> 表格\张祖宁的快速会议-739851503-fea8dfb18b6b.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 张雨(18001270357)_20250128095929.mp3 -> 音频\张雨(18001270357)_20250128095929.mp3
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 微程序二进制代码表.docx -> 文档\微程序二进制代码表.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 微程序二进制代码表_最终版.docx -> 文档\微程序二进制代码表_最终版.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 微程序控制器实验.pptx -> 演示文稿\微程序控制器实验.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 扫描件_支部大会通过接收申请人为预备党员的决议.pdf -> 文档\扫描件_支部大会通过接收申请人为预备党员的决议.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 技术名词解释.md -> 其他文件\技术名词解释.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 推荐优秀团员作为入党积极分子汇总表 (2).xlsx -> 表格\推荐优秀团员作为入党积极分子汇总表 (2).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 推荐优秀团员作为入党积极分子汇总表.xlsx -> 表格\推荐优秀团员作为入党积极分子汇总表.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 数学建模论文.docx -> 文档\数学建模论文.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 文档-黄南星0730-2117.pdf -> 文档\文档-黄南星0730-2117.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 新一期未录入团支部(1).xlsx -> 表格\新一期未录入团支部(1).xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 新建 文本文档 (1).txt -> 文档\新建 文本文档 (1).txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 新建 文本文档.txt -> 文档\新建 文本文档.txt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 新录音 3.m4a -> 音频\新录音 3.m4a
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 星辰引路者-后端.7z -> 压缩包\星辰引路者-后端.7z
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 智声课堂—基于多模态的语音教学系统的研发.doc -> 文档\智声课堂—基于多模态的语音教学系统的研发.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 智声课堂—基于多模态的语音教学系统的研发.docx -> 文档\智声课堂—基于多模态的语音教学系统的研发.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 智慧农业流程图.svg -> 图片\智慧农业流程图.svg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 智慧猪圈全过程管理系统API文档.md -> 其他文件\智慧猪圈全过程管理系统API文档.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 智慧猪圈项目概述.md -> 其他文件\智慧猪圈项目概述.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 曾令雄—华东交通大学推荐优秀团员作为入党积极分子登记表.docx -> 文档\曾令雄—华东交通大学推荐优秀团员作为入党积极分子登记表.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 曾令雄的证明材料.docx -> 文档\曾令雄的证明材料.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 跳过目录: 术影无踪 - OpenCV 双目视觉智能手术调光系统
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 术影无踪 - OpenCV 双目视觉智能手术调光系统.zip -> 压缩包\术影无踪 - OpenCV 双目视觉智能手术调光系统.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 杨欣材料的相关证明.docx -> 文档\杨欣材料的相关证明.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 杨欣材料相关证明(1).docx -> 文档\杨欣材料相关证明(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 样卷.doc -> 文档\样卷.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 正文(1).pdf -> 文档\正文(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 测距.mp4 -> 视频\测距.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 海峡PPT.pptx -> 演示文稿\海峡PPT.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 演示PPT.pptx -> 演示文稿\演示PPT.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 演示视频.mp4 -> 视频\演示视频.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 物联网工程2023级-1班-戚浩-第三次实验.pdf -> 文档\物联网工程2023级-1班-戚浩-第三次实验.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 物联网工程2023级-1班-戚浩-第二次实验.pdf -> 文档\物联网工程2023级-1班-戚浩-第二次实验.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 物联网工程专业2023级1班团支部推优工作相关材料.7z -> 压缩包\物联网工程专业2023级1班团支部推优工作相关材料.7z
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 物联网工程专业2023级2023-2024学年综合测评积分表.xlsx -> 表格\物联网工程专业2023级2023-2024学年综合测评积分表.xlsx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 王江发展对象材料.zip -> 压缩包\王江发展对象材料.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 王耀发展对象登记表.docx -> 文档\王耀发展对象登记表.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 生成办公室背景图.png -> 图片\生成办公室背景图.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 登记表模板及空白表 (1).zip -> 压缩包\登记表模板及空白表 (1).zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 登记表模板及空白表.zip -> 压缩包\登记表模板及空白表.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 研究内容.md -> 其他文件\研究内容.md
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 硬件学习分享 (1).pptx -> 演示文稿\硬件学习分享 (1).pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 硬件学习分享.pptx -> 演示文稿\硬件学习分享.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第10章输入输出系统.ppt -> 演示文稿\第10章输入输出系统.ppt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第2章 物理层.pptx -> 演示文稿\第2章 物理层.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第3章 数据链路层.pptx -> 演示文稿\第3章 数据链路层.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第3章运算方法和运算部件-3.3&3.4-2025.ppt -> 演示文稿\第3章运算方法和运算部件-3.3&3.4-2025.ppt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第3章运算方法和运算部件-3.5&3.6-2025.pptx -> 演示文稿\第3章运算方法和运算部件-3.5&3.6-2025.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第4章 网络层.pptx -> 演示文稿\第4章 网络层.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第4章主存储器-2025.ppt -> 演示文稿\第4章主存储器-2025.ppt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第5章 运输层.pptx -> 演示文稿\第5章 运输层.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第5章指令系统-2025.ppt -> 演示文稿\第5章指令系统-2025.ppt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第6章 应用层.pptx -> 演示文稿\第6章 应用层.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第8章 辅助存储器-2022.ppt -> 演示文稿\第8章 辅助存储器-2022.ppt
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第五次实验代码.zip -> 压缩包\第五次实验代码.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第八章.pdf -> 文档\第八章.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第十三周周报-陈都.pptx -> 演示文稿\第十三周周报-陈都.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第十三周周报-鲁雨欣.pptx -> 演示文稿\第十三周周报-鲁雨欣.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第十二周周报-张祖宁.pptx -> 演示文稿\第十二周周报-张祖宁.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 第四次实验代码.zip -> 压缩包\第四次实验代码.zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行——基于多模态人机交互的智慧导盲系统 (1).pptx -> 演示文稿\聆途睿行——基于多模态人机交互的智慧导盲系统 (1).pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行——基于多模态人机交互的智慧导盲系统.pptx -> 演示文稿\聆途睿行——基于多模态人机交互的智慧导盲系统.pptx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统 (1).docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统 (1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统 (2).docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统 (2).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统(2) (1).docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统(2) (1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统(2) (2).docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统(2) (2).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统(2) (3).docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统(2) (3).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统(2).docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统(2).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 聆途睿行一一基于多模态人机交互的智慧导盲系统.docx -> 文档\聆途睿行一一基于多模态人机交互的智慧导盲系统.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 腾讯云知识引擎SecretKey.csv -> 表格\腾讯云知识引擎SecretKey.csv
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 自传（改）.docx -> 文档\自传（改）.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成原理实验教程-多思虚拟实验系统.pdf -> 文档\计算机组成原理实验教程-多思虚拟实验系统.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成原理课程设计实施方案--23物联网.doc -> 文档\计算机组成原理课程设计实施方案--23物联网.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成原理课设报告模板.doc -> 文档\计算机组成原理课设报告模板.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成样卷A.doc -> 文档\计算机组成样卷A.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成样卷A部分参考答案.doc -> 文档\计算机组成样卷A部分参考答案.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成样卷B.doc -> 文档\计算机组成样卷B.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机组成样卷B参考答案.doc -> 文档\计算机组成样卷B参考答案.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计算机网络课程设计报告模板2025（信息与软件工程学院）.doc -> 文档\计算机网络课程设计报告模板2025（信息与软件工程学院）.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计组实验报告.doc -> 文档\计组实验报告.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计网第五章作业_1.jpg -> 图片\计网第五章作业_1.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 计网第五章作业_2.jpg -> 图片\计网第五章作业_2.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 设计文档 (1).docx -> 文档\设计文档 (1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 设计文档.docx -> 文档\设计文档.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 语音模块.mp4 -> 视频\语音模块.mp4
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 身份证_1.jpg -> 图片\身份证_1.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 身份证_2.jpg -> 图片\身份证_2.jpg
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 运行.bat -> 其他文件\运行.bat
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件(1).zip -> 压缩包\附件(1).zip
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件1：2025年“最美团支书”终评细则(1)(1).docx -> 文档\附件1：2025年“最美团支书”终评细则(1)(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件1：华东交通大学“泰豪之星·十佳大学生”奖学金申请表.doc -> 文档\附件1：华东交通大学“泰豪之星·十佳大学生”奖学金申请表.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件1：参赛学生需要提交材料及要求.docx -> 文档\附件1：参赛学生需要提交材料及要求.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件2：2025-2026学年学生带班党员信息表.docx -> 文档\附件2：2025-2026学年学生带班党员信息表.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件2：2025年“最美团支书”相关申报表格(1)(1).docx -> 文档\附件2：2025年“最美团支书”相关申报表格(1)(1).docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件2：XX学院“泰豪之星·十佳大学生”奖学金推荐名单汇总表.xls -> 表格\附件2：XX学院“泰豪之星·十佳大学生”奖学金推荐名单汇总表.xls
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件3：2025-2026学年学生党员教育管理中心学生带班党员汇总表.docx -> 文档\附件3：2025-2026学年学生党员教育管理中心学生带班党员汇总表.docx
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 附件：《计算机网络课程设计》内容.doc -> 文档\附件：《计算机网络课程设计》内容.doc
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 项目logo.png -> 图片\项目logo.png
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: 高速缓冲存储器例题选讲.pdf -> 文档\高速缓冲存储器例题选讲.pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: （最终稿）附件3：江西省高等学校大学生创新创业训练计划项目申报表（高校填）——基于YOLOv8的智能道路障碍物识别与紧急避让系统(1).pdf -> 文档\（最终稿）附件3：江西省高等学校大学生创新创业训练计划项目申报表（高校填）——基于YOLOv8的智能道路障碍物识别与紧急避让系统(1).pdf
+2025-06-20 11:34:57 - FileOrganizer - INFO - 文件已整理: （最终稿）附件3：江西省高等学校大学生创新创业训练计划项目申报表（高校填）——基于YOLOv8的智能驾驶道路障碍物识别及紧急避让系统.pdf -> 文档\（最终稿）附件3：江西省高等学校大学生创新创业训练计划项目申报表（高校填）——基于YOLOv8的智能驾驶道路障碍物识别及紧急避让系统.pdf
+2025-06-20 11:35:02 - FileOrganizer - INFO - 已显示通知对话框: 整理完成 - 成功整理下载文件夹 4 个文件
