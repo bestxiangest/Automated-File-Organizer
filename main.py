@@ -580,11 +580,18 @@ class FileOrganizerGUI:
         """隐藏到系统托盘
         
         隐藏主窗口，并在系统托盘显示图标
-        如果托盘图标未创建，则先创建它
+        确保先停止现有托盘图标，然后重新创建以避免冲突
         """
-        # 如果托盘图标尚未创建，则创建它
-        if not self.tray_icon:
-            self.create_tray_icon()
+        # 先停止现有的托盘图标（如果存在）
+        if self.tray_icon:
+            try:
+                self.tray_icon.stop()
+            except:
+                pass  # 忽略停止时可能出现的错误
+            self.tray_icon = None
+            
+        # 重新创建托盘图标
+        self.create_tray_icon()
             
         # 隐藏主窗口
         self.root.withdraw()
@@ -599,6 +606,7 @@ class FileOrganizerGUI:
         
         从系统托盘恢复并显示主窗口
         将窗口置于顶层，确保用户可以看到
+        同时停止托盘图标以避免重复创建
         """
         # 显示主窗口
         self.root.deiconify()
@@ -606,6 +614,14 @@ class FileOrganizerGUI:
         self.root.lift()
         # 更新隐藏状态
         self.is_hidden = False
+        
+        # 停止当前的托盘图标，避免重复创建导致的问题
+        if self.tray_icon:
+            try:
+                self.tray_icon.stop()
+            except:
+                pass  # 忽略停止时可能出现的错误
+            self.tray_icon = None
         
     def on_closing(self):
         """窗口关闭事件处理
