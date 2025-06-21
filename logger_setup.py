@@ -174,6 +174,22 @@ class FileOrganizerLogger:
         """记录调试信息"""
         self.logger.debug(debug_msg)
     
+    def error(self, error_msg: str, exc_info: bool = False):
+        """记录错误（兼容性方法）"""
+        self.logger.error(error_msg, exc_info=exc_info)
+    
+    def info(self, info_msg: str):
+        """记录信息（兼容性方法）"""
+        self.logger.info(info_msg)
+    
+    def warning(self, warning_msg: str):
+        """记录警告（兼容性方法）"""
+        self.logger.warning(warning_msg)
+    
+    def debug(self, debug_msg: str):
+        """记录调试信息（兼容性方法）"""
+        self.logger.debug(debug_msg)
+    
     def get_recent_logs(self, lines: int = 100) -> list:
         """
         获取最近的日志记录

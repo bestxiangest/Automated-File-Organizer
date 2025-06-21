@@ -56,11 +56,10 @@ class FileOrganizerCLI:
         parser = argparse.ArgumentParser(
             description="个人文件自动化整理归档工具",
             formatter_class=argparse.RawDescriptionHelpFormatter,
-            epilog="""
-示例用法:
-  %(prog)s organize /path/to/source /path/to/target
-  %(prog)s monitor /path/to/watch /path/to/target
-  %(prog)s preview /path/to/source /path/to/target
+            epilog="""示例用法:
+  %(prog)s organize /path/to/folder
+  %(prog)s monitor /path/to/folder
+  %(prog)s preview /path/to/folder
   %(prog)s stats /path/to/directory
   %(prog)s config --list
             """
@@ -70,20 +69,17 @@ class FileOrganizerCLI:
         
         # organize 命令
         organize_parser = subparsers.add_parser('organize', help='整理文件夹')
-        organize_parser.add_argument('source', help='源文件夹路径')
-        organize_parser.add_argument('target', help='目标文件夹路径')
+        organize_parser.add_argument('folder', help='要整理的文件夹路径')
         organize_parser.add_argument('--dry-run', action='store_true', help='预览模式，不实际移动文件')
         
         # monitor 命令
         monitor_parser = subparsers.add_parser('monitor', help='监控文件夹')
-        monitor_parser.add_argument('source', help='要监控的文件夹路径')
-        monitor_parser.add_argument('target', help='目标文件夹路径')
+        monitor_parser.add_argument('folder', help='要监控的文件夹路径')
         monitor_parser.add_argument('--recursive', action='store_true', default=False, help='递归监控子目录')
         
         # preview 命令
         preview_parser = subparsers.add_parser('preview', help='预览整理结果')
-        preview_parser.add_argument('source', help='源文件夹路径')
-        preview_parser.add_argument('target', help='目标文件夹路径')
+        preview_parser.add_argument('folder', help='要预览整理的文件夹路径')
         preview_parser.add_argument('--limit', type=int, default=50, help='显示的最大文件数')
         
         # stats 命令
@@ -160,18 +156,17 @@ class FileOrganizerCLI:
     
     def cmd_organize(self, args):
         """执行整理命令"""
-        source = os.path.abspath(args.source)
-        target = os.path.abspath(args.target)
+        folder = os.path.abspath(args.folder)
         
-        if not os.path.exists(source):
-            raise FileNotFoundError(f"源目录不存在: {source}")
+        if not os.path.exists(folder):
+            raise FileNotFoundError(f"目录不存在: {folder}")
         
         if args.dry_run:
             print("预览模式 - 不会实际移动文件")
-            results = self.organizer.preview_organization(source, target)
+            results = self.organizer.preview_organization(folder, folder)
             self._print_preview_results(results, args.get('limit', 50))
         else:
-            print(f"开始整理文件夹: {source} -> {target}")
+            print(f"开始整理文件夹: {folder}")
             
             # 显示进度
             import threading
@@ -184,7 +179,7 @@ class FileOrganizerCLI:
             progress_thread.start()
             
             try:
-                result = self.organizer.organize_folder(source, target)
+                result = self.organizer.organize_folder(folder, folder)
                 stop_progress.set()
                 
                 print(f"\n整理完成!")
@@ -198,22 +193,21 @@ class FileOrganizerCLI:
     
     def cmd_monitor(self, args):
         """执行监控命令"""
-        source = os.path.abspath(args.source)
-        target = os.path.abspath(args.target)
+        folder = os.path.abspath(args.folder)
         
-        if not os.path.exists(source):
-            raise FileNotFoundError(f"监控目录不存在: {source}")
+        if not os.path.exists(folder):
+            raise FileNotFoundError(f"监控目录不存在: {folder}")
         
-        print(f"开始监控目录: {source}")
-        print(f"目标目录: {target}")
+        print(f"开始监控目录: {folder}")
+        print("新文件将在该目录内自动整理")
         print("按 Ctrl+C 停止监控")
         
         # 创建监控处理器
-        event_handler = CLIFileMonitorHandler(self.organizer, source, target, self.logger)
+        event_handler = CLIFileMonitorHandler(self.organizer, folder, folder, self.logger)
         
         # 创建观察者
         observer = Observer()
-        observer.schedule(event_handler, source, recursive=args.recursive)
+        observer.schedule(event_handler, folder, recursive=args.recursive)
         observer.start()
         
         try:
@@ -227,14 +221,13 @@ class FileOrganizerCLI:
     
     def cmd_preview(self, args):
         """执行预览命令"""
-        source = os.path.abspath(args.source)
-        target = os.path.abspath(args.target)
+        folder = os.path.abspath(args.folder)
         
-        if not os.path.exists(source):
-            raise FileNotFoundError(f"源目录不存在: {source}")
+        if not os.path.exists(folder):
+            raise FileNotFoundError(f"目录不存在: {folder}")
         
-        print(f"预览整理结果: {source} -> {target}")
-        results = self.organizer.preview_organization(source, target)
+        print(f"预览整理结果: {folder}")
+        results = self.organizer.preview_organization(folder, folder)
         self._print_preview_results(results, args.limit)
     
     def cmd_stats(self, args):

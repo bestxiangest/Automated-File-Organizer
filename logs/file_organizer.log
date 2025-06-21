@@ -512,3 +512,45 @@
 2025-06-21 14:03:42 - FileOrganizer - INFO - 跳过目录: 文档
 2025-06-21 14:03:42 - FileOrganizer - INFO - 跳过目录: 演示文稿
 2025-06-21 14:03:42 - FileOrganizer - INFO - 跳过目录: 表格
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: file-with-dashes.pdf -> 文档\file-with-dashes.pdf
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: file_with_underscores.jpg -> 图片\file_with_underscores.jpg
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: mixed.Case.File.png -> 图片\mixed.Case.File.png
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: UPPERCASE_FILE.MP3 -> 音频\UPPERCASE_FILE.MP3
+2025-06-21 14:20:40 - FileOrganizer - INFO - 跳过目录: 个人资料
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 中文文件名测试.docx -> 文档\中文文件名测试.docx
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 临时文件_4.bin -> 其他文件\临时文件_4.bin
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 临时文件_5.html -> 代码\临时文件_5.html
+2025-06-21 14:20:40 - FileOrganizer - INFO - 跳过目录: 压缩包
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 参考文件_1.pdf -> 文档\参考文件_1.pdf
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 参考文件_2.tar -> 压缩包\参考文件_2.tar
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 参考文件_5.pdf -> 文档\参考文件_5.pdf
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 备份文件_1.rpm -> 程序\备份文件_1.rpm
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 备份文件_4.mkv -> 视频\备份文件_4.mkv
+2025-06-21 14:20:40 - FileOrganizer - INFO - 跳过目录: 备份文件夹
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 学习材料_4.bmp -> 图片\学习材料_4.bmp
+2025-06-21 14:20:40 - FileOrganizer - INFO - 跳过目录: 工作文档
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 工作文档_1.m4a -> 音频\工作文档_1.m4a
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 工作文档_3.m4a -> 音频\工作文档_3.m4a
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 工作文档_3.py -> 代码\工作文档_3.py
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 带空格的 文件名.txt -> 文档\带空格的 文件名.txt
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 样本数据_1.avi -> 视频\样本数据_1.avi
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 样本数据_2.bmp -> 图片\样本数据_2.bmp
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 样本数据_2.exe -> 程序\样本数据_2.exe
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 样本数据_2.html -> 代码\样本数据_2.html
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 样本数据_2.xlsx -> 表格\样本数据_2.xlsx
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 样本数据_3.bin -> 其他文件\样本数据_3.bin
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 测试文件_1.css -> 代码\测试文件_1.css
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 测试文件_3.gif -> 图片\测试文件_3.gif
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 测试文件_4.php -> 代码\测试文件_4.php
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 特殊字符@#$.txt -> 文档\特殊字符@#$.txt
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 示例文档_2.mkv -> 视频\示例文档_2.mkv
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 示例文档_3.xlsx -> 表格\示例文档_3.xlsx
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 示例文档_4.pptx -> 演示文稿\示例文档_4.pptx
+2025-06-21 14:20:40 - FileOrganizer - INFO - 跳过目录: 软件安装包
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 重要资料_1.gz -> 压缩包\重要资料_1.gz
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 重要资料_1.ico -> 图片\重要资料_1.ico
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 重要资料_2.flac -> 音频\重要资料_2.flac
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 重要资料_3.m4v -> 视频\重要资料_3.m4v
+2025-06-21 14:20:40 - FileOrganizer - INFO - 跳过目录: 重要项目文件夹
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 项目文件_3.zip -> 压缩包\项目文件_3.zip
+2025-06-21 14:20:40 - FileOrganizer - INFO - 文件已整理: 项目文件_5.gif -> 图片\项目文件_5.gif
