@@ -60,8 +60,12 @@ class FileOrganizerGUI:
         """
         # 创建主窗口
         self.root = tk.Tk()  # 创建tkinter主窗口对象
-        self.root.title("文件整理工具")  # 设置窗口标题
-        self.root.geometry("600x500")  # 设置窗口初始大小
+        self.root.title("🗂️ 智能文件整理工具")  # 设置窗口标题
+        self.root.geometry("750x600")  # 设置窗口初始大小
+        self.root.minsize(650, 500)  # 设置最小窗口大小
+        
+        # 设置现代化主题样式
+        self.setup_modern_theme()
         
         # 初始化核心组件
         self.config_manager = ConfigManager()  # 配置管理器，处理用户设置
@@ -74,7 +78,7 @@ class FileOrganizerGUI:
         
         # GUI界面变量
         self.folder_var = tk.StringVar()  # 存储用户选择的文件夹路径
-        self.status_var = tk.StringVar(value="就绪")  # 显示当前操作状态
+        self.status_var = tk.StringVar(value="🟢 就绪")  # 显示当前操作状态
         
         # 系统托盘功能相关变量
         self.tray_icon = None  # 托盘图标对象
@@ -90,99 +94,229 @@ class FileOrganizerGUI:
         # 设置窗口关闭事件处理
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)  # 绑定窗口关闭事件
         
+    def setup_modern_theme(self):
+        """设置现代化主题样式"""
+        # 设置窗口背景色为浅色
+        self.root.configure(bg='#f8f9fa')
+        
+        # 创建自定义样式
+        style = ttk.Style()
+        
+        # 配置现代化的颜色主题
+        style.theme_use('clam')  # 使用clam主题作为基础
+        
+        # 自定义按钮样式
+        style.configure('Modern.TButton',
+                       background='#007bff',
+                       foreground='white',
+                       borderwidth=0,
+                       focuscolor='none',
+                       padding=(12, 8))
+        style.map('Modern.TButton',
+                 background=[('active', '#0056b3'),
+                           ('pressed', '#004085')])
+        
+        # 自定义主要按钮样式
+        style.configure('Primary.TButton',
+                       background='#28a745',
+                       foreground='white',
+                       borderwidth=0,
+                       focuscolor='none',
+                       padding=(15, 10))
+        style.map('Primary.TButton',
+                 background=[('active', '#218838'),
+                           ('pressed', '#1e7e34')])
+        
+        # 自定义次要按钮样式
+        style.configure('Secondary.TButton',
+                       background='#6c757d',
+                       foreground='white',
+                       borderwidth=0,
+                       focuscolor='none',
+                       padding=(10, 6))
+        style.map('Secondary.TButton',
+                 background=[('active', '#5a6268'),
+                           ('pressed', '#545b62')])
+        
+        # 自定义输入框样式
+        style.configure('Modern.TEntry',
+                       fieldbackground='white',
+                       borderwidth=1,
+                       relief='solid',
+                       padding=(8, 6))
+        
+        # 自定义标签框样式
+        style.configure('Modern.TLabelframe',
+                       background='#f8f9fa',
+                       borderwidth=1,
+                       relief='solid')
+        style.configure('Modern.TLabelframe.Label',
+                       background='#f8f9fa',
+                       foreground='#495057',
+                       font=('Segoe UI', 10, 'bold'))
+        
+        # 自定义标签样式
+        style.configure('Title.TLabel',
+                       background='#f8f9fa',
+                       foreground='#212529',
+                       font=('Segoe UI', 18, 'bold'))
+        
+        style.configure('Subtitle.TLabel',
+                       background='#f8f9fa',
+                       foreground='#6c757d',
+                       font=('Segoe UI', 10))
+        
+        style.configure('Status.TLabel',
+                       background='#f8f9fa',
+                       foreground='#28a745',
+                       font=('Segoe UI', 9))
+        
     def setup_ui(self):
-        """设置用户界面
+        """设置现代化用户界面
         
-        创建并布局所有GUI组件，包括：
-        - 主框架和标题
-        - 文件夹选择区域
-        - 操作按钮组
-        - 状态显示
-        - 日志显示区域
+        创建并布局所有GUI组件，采用现代化设计：
+        - 卡片式布局
+        - 现代化按钮样式
+        - 紧凑的间距
+        - 美观的颜色搭配
         """
-        # 创建主框架，设置内边距为10像素
-        main_frame = ttk.Frame(self.root, padding="10")
-        # 将主框架放置在窗口中，设置为可伸缩
-        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        # 创建主容器，使用现代化背景色
+        main_container = tk.Frame(self.root, bg='#f8f9fa')
+        main_container.pack(fill=tk.BOTH, expand=True, padx=15, pady=15)
         
-        # 创建应用程序标题标签
-        title_label = ttk.Label(main_frame, text="个人文件自动化整理归档工具", 
-                               font=('Arial', 16, 'bold'))  # 设置字体为Arial 16号粗体
-        # 放置标题，跨越3列，底部留20像素间距
-        title_label.grid(row=0, column=0, columnspan=3, pady=(0, 20))
+        # 标题区域
+        title_frame = tk.Frame(main_container, bg='#f8f9fa')
+        title_frame.pack(fill=tk.X, pady=(0, 20))
         
-        # 文件夹选择区域
-        # 创建提示标签
-        ttk.Label(main_frame, text="要整理的文件夹:").grid(row=1, column=0, sticky=tk.W, pady=5)
-        # 创建文件夹路径输入框，绑定到folder_var变量
-        ttk.Entry(main_frame, textvariable=self.folder_var, width=50).grid(row=1, column=1, padx=5)
-        # 创建浏览按钮，点击时调用browse_folder方法
-        ttk.Button(main_frame, text="浏览", 
-                  command=self.browse_folder).grid(row=1, column=2)
+        # 主标题
+        title_label = ttk.Label(title_frame, text="🗂️ 智能文件整理工具", style='Title.TLabel')
+        title_label.pack()
         
-        # 创建操作按钮容器框架
-        button_frame = ttk.Frame(main_frame)
-        # 放置按钮框架，跨越3列，上下留20像素间距
-        button_frame.grid(row=3, column=0, columnspan=3, pady=20)
+        # 副标题
+        subtitle_label = ttk.Label(title_frame, text="让文件管理变得简单高效", style='Subtitle.TLabel')
+        subtitle_label.pack(pady=(5, 0))
         
-        # 主要功能按钮（左侧排列）
-        # 一键整理按钮
-        ttk.Button(button_frame, text="一键整理", 
-                  command=self.organize_files).pack(side=tk.LEFT, padx=5)
+        # 文件夹选择卡片
+        folder_card = tk.Frame(main_container, bg='white', relief='solid', bd=1)
+        folder_card.pack(fill=tk.X, pady=(0, 15))
+        
+        folder_inner = tk.Frame(folder_card, bg='white')
+        folder_inner.pack(fill=tk.X, padx=20, pady=15)
+        
+        # 文件夹选择标题
+        folder_title = ttk.Label(folder_inner, text="📁 选择要整理的文件夹", 
+                                font=('Segoe UI', 11, 'bold'), background='white', foreground='#495057')
+        folder_title.pack(anchor=tk.W, pady=(0, 10))
+        
+        # 文件夹路径输入区域
+        path_frame = tk.Frame(folder_inner, bg='white')
+        path_frame.pack(fill=tk.X)
+        
+        # 文件夹路径输入框
+        self.folder_entry = ttk.Entry(path_frame, textvariable=self.folder_var, 
+                                     style='Modern.TEntry', font=('Segoe UI', 10))
+        self.folder_entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10))
+        
+        # 浏览按钮
+        browse_btn = ttk.Button(path_frame, text="📂 浏览", 
+                               command=self.browse_folder, style='Modern.TButton')
+        browse_btn.pack(side=tk.RIGHT)
+        
+        # 主要操作区域
+        action_card = tk.Frame(main_container, bg='white', relief='solid', bd=1)
+        action_card.pack(fill=tk.X, pady=(0, 15))
+        
+        action_inner = tk.Frame(action_card, bg='white')
+        action_inner.pack(fill=tk.X, padx=20, pady=15)
+        
+        # 操作区域标题
+        action_title = ttk.Label(action_inner, text="⚡ 快速操作", 
+                                font=('Segoe UI', 11, 'bold'), background='white', foreground='#495057')
+        action_title.pack(anchor=tk.W, pady=(0, 15))
+        
+        # 主要按钮区域
+        main_buttons_frame = tk.Frame(action_inner, bg='white')
+        main_buttons_frame.pack(fill=tk.X, pady=(0, 10))
+        
+        # 一键整理按钮（主要按钮）
+        organize_btn = ttk.Button(main_buttons_frame, text="🚀 一键整理", 
+                                 command=self.organize_files, style='Primary.TButton')
+        organize_btn.pack(side=tk.LEFT, padx=(0, 10))
         
         # 快速整理桌面按钮
-        ttk.Button(button_frame, text="快速整理桌面", 
-                  command=self.quick_organize_desktop).pack(side=tk.LEFT, padx=5)
+        desktop_btn = ttk.Button(main_buttons_frame, text="🖥️ 整理桌面", 
+                                command=self.quick_organize_desktop, style='Modern.TButton')
+        desktop_btn.pack(side=tk.LEFT, padx=(0, 10))
+        
+        # 次要按钮区域
+        secondary_buttons_frame = tk.Frame(action_inner, bg='white')
+        secondary_buttons_frame.pack(fill=tk.X)
         
         # 配置规则按钮
-        ttk.Button(button_frame, text="配置规则", 
-                  command=self.open_config).pack(side=tk.LEFT, padx=5)
+        config_btn = ttk.Button(secondary_buttons_frame, text="⚙️ 配置规则", 
+                               command=self.open_config, style='Secondary.TButton')
+        config_btn.pack(side=tk.LEFT, padx=(0, 8))
         
         # 查看日志按钮
-        ttk.Button(button_frame, text="查看日志", 
-                  command=self.view_logs).pack(side=tk.LEFT, padx=5)
-
+        log_btn = ttk.Button(secondary_buttons_frame, text="📋 查看日志", 
+                            command=self.view_logs, style='Secondary.TButton')
+        log_btn.pack(side=tk.LEFT, padx=(0, 8))
         
-        # 辅助功能按钮（右侧排列）
+        # 定时提醒按钮
+        self.reminder_button = ttk.Button(secondary_buttons_frame, text="⏰ 开启提醒", 
+                                         command=self.toggle_reminder, style='Secondary.TButton')
+        self.reminder_button.pack(side=tk.LEFT, padx=(0, 8))
+        
         # 隐藏到托盘按钮
-        ttk.Button(button_frame, text="隐藏到托盘", command=self.hide_to_tray).pack(side=tk.RIGHT, padx=5)
+        tray_btn = ttk.Button(secondary_buttons_frame, text="📌 托盘", 
+                             command=self.hide_to_tray, style='Secondary.TButton')
+        tray_btn.pack(side=tk.RIGHT)
         
-        # 定时提醒按钮，保存引用以便后续修改文本
-        self.reminder_button = ttk.Button(button_frame, text="开启定时提醒", 
-                                         command=self.toggle_reminder)
-        self.reminder_button.pack(side=tk.RIGHT, padx=5)
+        # 状态显示区域
+        status_frame = tk.Frame(main_container, bg='#f8f9fa')
+        status_frame.pack(fill=tk.X, pady=(0, 15))
         
-        # 状态显示标签
-        self.status_var = tk.StringVar(value="就绪")  # 重新初始化状态变量
-        status_label = ttk.Label(main_frame, textvariable=self.status_var)
-        # 放置状态标签，跨越3列，上下留10像素间距
-        status_label.grid(row=4, column=0, columnspan=3, pady=10)
+        status_label = ttk.Label(status_frame, textvariable=self.status_var, style='Status.TLabel')
+        status_label.pack()
         
-        # 日志显示区域
-        # 创建带标题的框架用于显示日志
-        log_frame = ttk.LabelFrame(main_frame, text="操作日志", padding="5")
-        # 放置日志框架，跨越3列，设置为可伸缩，上方留10像素间距
-        log_frame.grid(row=5, column=0, columnspan=3, sticky=(tk.W, tk.E, tk.N, tk.S), pady=10)
+        # 日志显示卡片
+        log_card = tk.Frame(main_container, bg='white', relief='solid', bd=1)
+        log_card.pack(fill=tk.BOTH, expand=True)
         
-        # 创建多行文本框用于显示日志
-        self.log_text = tk.Text(log_frame, height=15, width=80)
-        # 创建垂直滚动条
-        scrollbar = ttk.Scrollbar(log_frame, orient="vertical", command=self.log_text.yview)
-        # 将文本框与滚动条关联
+        log_inner = tk.Frame(log_card, bg='white')
+        log_inner.pack(fill=tk.BOTH, expand=True, padx=20, pady=15)
+        
+        # 日志区域标题
+        log_title = ttk.Label(log_inner, text="📝 操作日志", 
+                             font=('Segoe UI', 11, 'bold'), background='white', foreground='#495057')
+        log_title.pack(anchor=tk.W, pady=(0, 10))
+        
+        # 日志文本区域
+        log_text_frame = tk.Frame(log_inner, bg='white')
+        log_text_frame.pack(fill=tk.BOTH, expand=True)
+        
+        # 创建日志文本框，使用现代化样式
+        self.log_text = tk.Text(log_text_frame, 
+                               height=12, 
+                               font=('Consolas', 9),
+                               bg='#f8f9fa',
+                               fg='#495057',
+                               relief='flat',
+                               wrap=tk.WORD,
+                               padx=10,
+                               pady=8)
+        
+        # 创建滚动条
+        scrollbar = ttk.Scrollbar(log_text_frame, orient="vertical", command=self.log_text.yview)
         self.log_text.configure(yscrollcommand=scrollbar.set)
         
-        # 放置文本框，设置为可伸缩
-        self.log_text.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
-        # 放置滚动条，垂直伸缩
-        scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+        # 布局日志文本框和滚动条
+        self.log_text.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         
         # 配置网格权重，使界面可以自适应窗口大小变化
-        self.root.columnconfigure(0, weight=1)  # 主窗口列可伸缩
-        self.root.rowconfigure(0, weight=1)     # 主窗口行可伸缩
-        main_frame.columnconfigure(1, weight=1)  # 主框架中间列可伸缩（文件夹输入框）
-        main_frame.rowconfigure(5, weight=1)     # 主框架第5行可伸缩（日志区域）
-        log_frame.columnconfigure(0, weight=1)   # 日志框架第0列可伸缩（文本框）
-        log_frame.rowconfigure(0, weight=1)      # 日志框架第0行可伸缩（文本框）
+        self.root.columnconfigure(0, weight=1)
+        self.root.rowconfigure(0, weight=1)
         
     def browse_folder(self):
         """浏览文件夹
